@@ -53,6 +53,10 @@ a {
         Media Queries
 ============================================================*/
 @media (min-width: 769px){
+
+    .wrap{
+        min-height: calc(100vh - 121.6px);
+    }
     .container{
         width: 70%;
         max-width: 1000px;
